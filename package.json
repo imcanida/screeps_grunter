@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "bare bones screeps grunter",
   "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-screeps": "^1.2.1",
+    "screeps-profiler": "^1.2.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-remove-usestrict": "^0.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
