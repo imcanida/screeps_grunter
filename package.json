@@ -1,26 +1,19 @@
 {
-  "name": "skynet_screepers",
+  "name": "screeps_grunter",
   "version": "1.0.0",
-  "description": "My first run at screeps ai",
+  "description": "bare bones screeps grunter",
   "main": "Gruntfile.js",
-  "dependencies": {
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-screeps": "^1.2.1",
-    "screeps-profiler": "^1.2.1"
-  },
-  "devDependencies": {
-    "grunt-contrib-uglify": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-remove-usestrict": "^0.1.1"
-  },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://imcanida@bitbucket.org/imcanida/screeps.git"
+    "url": "git+https://github.com/imcanida/screeps_grunter.git"
   },
-  "author": "Ian Canida",
+  "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/imcanida/screeps#readme"
+  "bugs": {
+    "url": "https://github.com/imcanida/screeps_grunter/issues"
+  },
+  "homepage": "https://github.com/imcanida/screeps_grunter#readme"
 }
